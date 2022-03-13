@@ -1,0 +1,111 @@
+:root {
+    --opal: #9ac1b9;
+    --dark-green: #0c1713;
+    --gunmetal: #022b3b;
+    --rose-ebony: #644045;
+    --blush: #d58593;
+    --salmon: #f8a88b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    color: var(--gunmetal);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* HEADER AND NAVIGATION BAR SYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--blush);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--gunmetal);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--gunmetal);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--opal);
+    color: var(--gunmetal);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* HEADER AND NAVIGATION STYLES END */
+
+/* FOOTER STYLES START */
+
+footer {
+    background: var(--blush);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h3 {
+    color: var(--gunmetal);
+    font-size: 24px;
+    margin: 0;
+}
+
+/* FOOTER STYLES END */
+
+/* STYLE FOR ALL SECTION TAGS */
+
+section {
+    padding: 60px;
+}
+
+/* HERO STYLES START */
+
+.hero {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/hero-pic.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
