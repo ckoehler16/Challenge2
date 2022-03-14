@@ -14,7 +14,7 @@
   }
 
 body {
-    color: var(--gunmetal);
+    color: var(--dark-green);
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -29,19 +29,24 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    background-image: url("/Users/courtneykoehler/Desktop/challenge2/images/hero-pic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
-    color: var(--gunmetal);
+    font-size: 40px;
+    color: var(--dark-green);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--gunmetal);
+    color: var(--dark-green);
 }
 
 header nav {
@@ -65,7 +70,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: var(--opal);
-    color: var(--gunmetal);
+    color: var(--dark-green);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -93,7 +98,7 @@ footer h3 {
 
 /* STYLE FOR ALL SECTION TAGS */
 
-section {
+/*section {
     padding: 60px;
 }
 
@@ -109,3 +114,105 @@ section {
     background-attachment: fixed;
     background-position: 80%;
 }
+
+.hero h2 {
+    text-align: left;
+    align-items: right;
+    margin: 3.5%;
+    color: var(--dark-green);
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+/* HERO STYLES END */
+.content {
+    display: flex;
+}
+/* ABOUT ME SYLES START */
+
+.me-section {
+    margin: 120px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-box {
+    border-right: 3px solid;
+    border-color: #022b3b;
+    padding: 60px 30px 60px 0;
+}
+
+.me-header {
+    color: #9ac1b9;
+    font-size: 30px;
+    width: 80%;
+}
+
+.right-box {
+    padding-left: 60px;
+}
+
+.right-box p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--rose-ebony);
+}
+
+/* ABOUT ME STYLES END */
+
+/* WORK STYLES START */
+
+.work-section {
+    margin: 120px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-header {
+    color: #9ac1b9;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.right-box2 {
+    padding-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--rose-ebony);
+}
+/* WORK STYLES END */
+
+/* CONTACT STYLES START */
+
+.contact-section {
+    margin: 75px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-box2 {
+    border-right: 3px solid;
+    border-color: #022b3b;
+    padding: 60px 10px 60px 0;
+}
+
+.contact-header {
+    color: #9ac1b9;
+    font-size: 30px;
+    width: 80%;
+}
+
+/* CONTACT STYLES END */
