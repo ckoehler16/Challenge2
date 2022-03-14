@@ -80,7 +80,7 @@ header nav ul li a:hover {
 /* FOOTER STYLES START */
 
 footer {
-    background: var(--blush);
+    background: var(--opal);
     padding: 20px 15px;
     display: flex;
     justify-content: space-evenly;
@@ -304,4 +304,75 @@ footer h3 {
     width: 80%;
 }
 
+.right-box3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.right-box3 ul li a {
+    padding: 20px 30px;
+    font-size: 20px;
+    color: var(--rose-ebony);
+
+}
+
+.right-box3 ul li a:hover {
+    background: var(--opal);
+    color: var(--dark-green);
+    border-radius: 15px;
+    text-shadow: none;
+}
 /* CONTACT STYLES END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h3 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero {
+      width: 100%;
+    }
+    
+    .hero h2 {
+      text-align: center;
+    }
+  
+    .me-section {
+      width: 80%;
+    }
+    
+    .work-section {
+      flex: 0 70%;
+    }
+    
+    .contact-section {
+      flex: 1 100%;
+    }
+  }
