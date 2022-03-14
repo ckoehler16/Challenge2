@@ -190,6 +190,95 @@ footer h3 {
     line-height: 1.5;
     color: var(--rose-ebony);
 }
+
+.work-project1 {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/hero-bg-copy.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid var(--blush);
+    margin: 10px;
+    padding: 250px 0 0 400px;
+    text-align: right;
+}
+
+.project-box h4 {
+    font-size: 14px;
+    color: var(--gunmetal);
+}
+
+.project-box h3 {
+    font-size: 14px;
+    color: var(--gunmetal);
+}
+
+.project-box a {
+    text-decoration: none;
+    color: var(--gunmetal);
+    font-size: 14px;
+}
+
+.project-box a:hover {
+    background: var(--opal);
+    color: var(--dark-green);
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+.work-project2 {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/coming_soon.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid var(--blush);
+    margin: 10px;
+    padding: 150px 0 0 250px;
+    text-align: right;
+}
+
+.work-project3 {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/coming_soon.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid var(--blush);
+    margin: 10px;
+    padding: 150px 0 0 175px;
+    text-align: right;
+}
+
+.work-project4 {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/coming_soon.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid var(--blush);
+    margin: 10px;
+    padding: 150px 0 0 233px;
+    text-align: right;
+}
+
+.work-project5 {
+    background-image: url('/Users/courtneykoehler/Desktop/challenge2/images/coming_soon.jpg');
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 5px solid var(--blush);
+    margin: 10px;
+    padding: 150px 0 0 227px;
+    text-align: right;
+}
+
 /* WORK STYLES END */
 
 /* CONTACT STYLES START */
