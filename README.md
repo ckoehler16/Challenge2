@@ -1,4 +1,4 @@
-# challenge2
+# My Profile Page
 
 ## Purpose
 A webpage to display my past and current progects as well as personality and  insight into the person I am to potential employers.
